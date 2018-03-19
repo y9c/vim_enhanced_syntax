@@ -210,7 +210,7 @@ else
   syn match   pythonStatement   "\<async\s\+for\>" display
 endif
 
-syn cluster pythonTypeExpression contains=pythonTypeAnno,pythonTypeUnion,pythonTypeArgs
+syn cluster pythonTypeExpression contains=pythonTypeAnno,pythonTypeUnion
 
 syn cluster pythonExpression contains=
             \ pythonFuncArgs,
