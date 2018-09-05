@@ -48,6 +48,7 @@ syn keyword	nexusParameter	symmetricbetapr topologypr brlenspr
 syn keyword	nexusParameter	speciationpr extinctionpr sampleprob thetapr
 syn keyword	nexusParameter	ratemult autoclose nowarnings
 syn keyword	nexusParameter	displaygeq contype showtreeprobs
+syn keyword	nexusParameter	ratemultiplier
 " Options
 syn keyword	nexusOptionsR	4by4 doublet codon
 syn keyword	nexusOptionsR	universal vertmt mycoplasma
