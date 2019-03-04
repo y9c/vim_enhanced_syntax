@@ -27,6 +27,7 @@ source $VIMRUNTIME/syntax/python.vim
 " subworkflow, touch etc
 "
 " rule       = "rule" (identifier | "") ":" ruleparams
+" checkpoint = "checkpoint" (identifier | "") ":" checkpointparams
 " include    = "include:" stringliteral
 " workdir    = "workdir:" stringliteral
 " ni         = NEWLINE INDENT
@@ -46,7 +47,7 @@ syn keyword pythonStatement	ruleorder localrules configfile
 syn keyword pythonStatement	touch protected temp wrapper
 syn keyword pythonStatement	input output params message threads resources
 syn keyword pythonStatement	version run shell benchmark snakefile log script
-syn keyword pythonStatement	rule subworkflow nextgroup=pythonFunction skipwhite
+syn keyword pythonStatement	rule subworkflow checkpoint nextgroup=pythonFunction skipwhite
 
 " similar to special def and class treatment from python.vim, except
 " parenthetical part of def and class
