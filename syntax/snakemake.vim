@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language:	Snakemake (extended from python.vim)
 " Maintainer:	Jay Hesselberth (jay.hesselberth@gmail.com)
-" Last Change:	2016 Jan 23
+" Forked:	Yech (2018-03-04)
 "
 " Usage
 "
